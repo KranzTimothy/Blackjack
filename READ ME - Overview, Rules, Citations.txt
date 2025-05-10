@@ -1,0 +1,5 @@
+Citations:
+Blackjack cards - https://github.com/ImKennyYip/black-jack/tree/master/cards
+Blackjack table - https://www.istockphoto.com/de/fotos/blackjack-table?page=2
+Fisher-Yates Shuffle - https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle
+Kenny Yip Coding - https://www.youtube.com/watch?v=bMYCWccL-3U 
