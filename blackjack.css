@@ -144,3 +144,18 @@ body {
     -1px  1px 0 black,
      1px  1px 0 black; 
 }
+
+@keyframes deal {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.card {
+    animation: deal 0.3s ease-out;
+}
