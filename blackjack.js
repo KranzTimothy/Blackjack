@@ -1,5 +1,5 @@
 var deck = [];
-var hidden = 0;
+var hidden = '';
 var dealerSum = 0;
 var dealerAce = 0;
 var yourAce = 0;
@@ -73,6 +73,7 @@ function yourCards() {
     document.getElementById('your-cards').append(cardImg);
     }
     //console.log(yourSum);
+    yourSum = reduceAce(yourSum, yourAce);
     document.getElementById('your-sum').innerText = yourSum;
 
     //Hit, Stand, restart
@@ -87,6 +88,7 @@ function dealerDraw () {
         while (dealerSum < 17) {
             let cardImg = document.createElement('img');
             let card = deck.pop();
+            cardImg.classList.add('card');
             cardImg.src = './cards/' + card + '.png';
             dealerSum += getValue(card);
             dealerAce += checkAce(card);
@@ -123,6 +125,7 @@ function hit() {
     let cardImg = document.createElement('img');
     let card = deck.pop();
     cardImg.src = './cards/' + card + '.png';
+    cardImg.classList.add('card');
     yourSum += getValue(card);
     yourAce += checkAce(card);
     document.getElementById('your-cards').append(cardImg);
