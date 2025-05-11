@@ -110,8 +110,8 @@ body {
     font-size: 1.25rem;
     cursor: pointer;
     position: absolute;
-    top: 40%;
-    left: 25%;
+    top: 73%;
+    left: 67%;
     transform: translate(-50%, -50%);
     z-index: 10;
 }
