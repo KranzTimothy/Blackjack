@@ -145,6 +145,24 @@ body {
      1px  1px 0 black; 
 }
 
+/*adjust size fore mobile - chatGPT*/
+@media (max-width: 768px) {
+    .title-banner {
+        width: 70%; /* Adjust width for smaller screens */
+        font-size: 1.5rem; /* Smaller font size */
+        top: 20vh;
+    }
+
+    #dealer-cards img, #your-cards img {
+        height: 8vh; /* Smaller card height for smaller screens */
+    }
+
+    #hit, #stand, #restart {
+        font-size: 0.8rem; /* Smaller button font size */
+        padding: 0.5rem 1rem; /* Smaller padding */
+    }
+}
+
 @keyframes deal {
     from {
         transform: translateY(-50px);
