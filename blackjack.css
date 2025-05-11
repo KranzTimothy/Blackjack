@@ -14,6 +14,12 @@ body {
     background-size: cover;
     background-position: center;
     overflow: hidden;
+    /*https://stackoverflow.com/questions/4919076/outline-effect-to-text*/
+    text-shadow: 
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black; 
 }
 
 .title-banner {
@@ -25,12 +31,6 @@ body {
     top: 28vh;
     font-size: 2rem;
     position: relative;
-    /*https://stackoverflow.com/questions/4919076/outline-effect-to-text*/
-    text-shadow: 
-    -1px -1px 0 black,
-     1px -1px 0 black,
-    -1px  1px 0 black,
-     1px  1px 0 black; 
 }
 
 #dealer {
@@ -41,13 +41,7 @@ body {
     text-align: center;
     margin: 3vh auto;
     font-size: 2rem;
-    position: relative;
-    /*https://stackoverflow.com/questions/4919076/outline-effect-to-text*/
-    text-shadow: 
-    -1px -1px 0 black,
-     1px -1px 0 black,
-    -1px  1px 0 black,
-     1px  1px 0 black; 
+    position: relative; 
 }
 
 #dealer-cards img {
@@ -66,13 +60,7 @@ body {
     text-align: center;
     margin: 2vh auto;
     font-size: 2rem;
-    position: relative;
-    /*https://stackoverflow.com/questions/4919076/outline-effect-to-text*/
-    text-shadow: 
-    -1px -1px 0 black,
-     1px -1px 0 black,
-    -1px  1px 0 black,
-     1px  1px 0 black; 
+    position: relative; 
 }
 
 #your-cards img {
@@ -137,12 +125,23 @@ body {
     margin: 2vh auto;
     position: relative;
     font-size: 2rem;
-    /*https://stackoverflow.com/questions/4919076/outline-effect-to-text*/
-    text-shadow: 
-    -1px -1px 0 black,
-     1px -1px 0 black,
-    -1px  1px 0 black,
-     1px  1px 0 black; 
+}
+
+
+/* Animation from chatGPT*/
+@keyframes deal {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.card {
+    animation: deal 0.3s ease-out;
 }
 
 /*adjust size fore mobile - chatGPT*/
@@ -161,19 +160,4 @@ body {
         font-size: 0.8rem; /* Smaller button font size */
         padding: 0.5rem 1rem; /* Smaller padding */
     }
-}
-
-@keyframes deal {
-    from {
-        transform: translateY(-50px);
-        opacity: 0;
-    }
-    to {
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
-
-.card {
-    animation: deal 0.3s ease-out;
 }
