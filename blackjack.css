@@ -17,14 +17,14 @@ body {
 }
 
 .title-banner {
-    width: 500px;
-    height: 150px;
+    width: 40%;
+    height: auto;
     color: white;
     text-align: center;
-    margin: 20px auto;
+    margin: 2vh auto;
+    top: 28vh;
+    font-size: 2rem;
     position: relative;
-    top: 235px;
-    font-size: 28px;
     /*https://stackoverflow.com/questions/4919076/outline-effect-to-text*/
     text-shadow: 
     -1px -1px 0 black,
@@ -35,13 +35,13 @@ body {
 
 #dealer {
     color: white;
-    top: -180px;
-    width: 500px;
-    height: 150px;
+    top: -21vh;
+    width: 50%;
+    height: auto;
     text-align: center;
-    margin: 20px auto;
+    margin: 3vh auto;
+    font-size: 2rem;
     position: relative;
-    font-size: 30px;
     /*https://stackoverflow.com/questions/4919076/outline-effect-to-text*/
     text-shadow: 
     -1px -1px 0 black,
@@ -51,22 +51,22 @@ body {
 }
 
 #dealer-cards img {
-    height: 175px;
-    width: 125px;
-    margin: 1px;
+    height: 23vh;
+    width: auto;
+    margin: 0.0%;
     position: relative;
-    top: -300px;
+    top: -23vh;
 }
 
 #you {
     color: white;
-    top: -145px;
-    width: 500px;
-    height: 150px;
+    top: -6vh;
+    width: 50%;
+    height: auto;
     text-align: center;
-    margin: 20px auto;
+    margin: 2vh auto;
+    font-size: 2rem;
     position: relative;
-    font-size: 30px;
     /*https://stackoverflow.com/questions/4919076/outline-effect-to-text*/
     text-shadow: 
     -1px -1px 0 black,
@@ -76,64 +76,67 @@ body {
 }
 
 #your-cards img {
-    height: 175px;
-    width: 125px;
-    margin: 1px;
+    height: 23vh;
+    width: auto;
+    margin: 0.1%;
     position: relative;
-    top: -260px;
+    top: -6vh;
 }
 
 #hit {
-    padding: 10px 40px;
+    padding: 0.75rem 2.5rem;
     border-radius: 50px;
     border: 1px solid black;
     background-color:lightgrey; 
     color: black;
-    font-size: 19px;
+    font-size: 1.25rem;
     cursor: pointer;
     position: absolute;
     top: 85%;
     left: 45%;
     transform: translate(-50%, -50%);
+    z-index: 10;
 }
 
 #stand {
-    padding: 10px 30px;
+    padding: 0.75rem 1.5rem;
     border-radius: 50px;
     border: 1px solid black;
     background-color:lightgrey; 
     color: black;
-    font-size: 19px;
+    font-size: 1.25rem;
     cursor: pointer;
     position: absolute;
     top: 85%; 
     left: 55%;
     transform: translate(-50%, -50%);
+    z-index: 10;
 }
 
 #restart {
-    padding: 10px 40px;
+    padding: 0.75rem 1.5rem;
     border-radius: 50px;
     border: 1px solid black;
     background-color:lightgrey; 
     color: black;
-    font-size: 19px;
+    font-size: 1.25rem;
     cursor: pointer;
     position: absolute;
     top: 40%;
     left: 25%;
     transform: translate(-50%, -50%);
+    z-index: 10;
 }
 
 #results {
     color: white;
-    top: -170px;
-    width: 500px;
-    height: 150px;
+    top: 0vh;
+    width: 50%;
+    height: auto;
     text-align: center;
-    margin: 20px auto;
+    margin: 2vh auto;
     position: relative;
-    font-size: 30px;
+    font-size: 2rem;
     /*https://stackoverflow.com/questions/4919076/outline-effect-to-text*/
     text-shadow: 
     -1px -1px 0 black,
