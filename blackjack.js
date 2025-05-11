@@ -85,11 +85,11 @@ function yourCards() {
 function dealerDraw () {
         //document.getElementById('hidden').src = './cards/' + hidden + '.png';
 
-        while (dealerSum < 17) {
+        while (reduceAce(dealerSum, dealerAce) < 17) {
             let cardImg = document.createElement('img');
             let card = deck.pop();
-            cardImg.classList.add('card');
             cardImg.src = './cards/' + card + '.png';
+            cardImg.classList.add('card');
             dealerSum += getValue(card);
             dealerAce += checkAce(card);
             document.getElementById('dealer-cards').append(cardImg);
