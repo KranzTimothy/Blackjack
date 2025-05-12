@@ -1,0 +1,8 @@
+Citations:
+Blackjack table - https://www.istockphoto.com/de/fotos/blackjack-table?page=2
+Blackjack cards - https://github.com/ImKennyYip/black-jack/tree/master/cards
+Button design W3schools - https://www.w3schools.com/howto/howto_css_outline_buttons.asp
+ChatGPT
+Fisher-Yates Shuffle - https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle
+Kenny Yip Coding - https://www.youtube.com/watch?v=bMYCWccL-3U 
+Text Shadow Stack Overflow - https://stackoverflow.com/questions/4919076/outline-effect-to-text
