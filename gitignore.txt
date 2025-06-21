@@ -1,0 +1,50 @@
+# Node modules, if you later use npm or yarn
+node_modules/
+
+# Dependency directories
+bower_components/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+
+# VSCode settings
+.vscode/
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pyc
+
+# Build directories
+dist/
+build/
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Mac system files
+Icon?
+._*
+
+# SASS cache
+.sass-cache/
+
+# npm package lock
+package-lock.json
+yarn.lock
+
+# Optional: ignore cards directory if used for generated assets
+# /cards/
